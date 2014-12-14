@@ -15,3 +15,17 @@ Route::get('/', function()
 {
 	return View::make('hello');
 });
+
+Route::resource('admin/posiciones', 'Admin\PosicionesController');
+
+Route::resource('admin/carreras', 'Admin\CarrerasController');
+
+Route::resource('admin/semestres', 'Admin\SemestresController');
+
+Route::resource('admin/tipos_torneos', 'Admin\TiposTorneosController');
+
+Route::resource('admin/tipos_tarjetas', 'Admin\TiposTarjetasController');
+
+Route::resource('admin/jugadores', 'Admin\JugadoresController');
+
+Route::resource('admin/equipos', 'Admin\EquiposController');
