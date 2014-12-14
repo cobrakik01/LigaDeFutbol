@@ -1,0 +1,955 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"noti",
+				"notifyMe"
+			],
+			[
+				"emple",
+				"empleado"
+			],
+			[
+				"b",
+				"buscar"
+			],
+			[
+				"empl",
+				"emplado"
+			],
+			[
+				"date",
+				"datepicker"
+			],
+			[
+				"pala",
+				"palabraSecreta"
+			],
+			[
+				"borde",
+				"border-radius"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"border",
+				"border"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"margi",
+				"margin-left"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"on",
+				"onchange	Attr"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"votos",
+				"votos"
+			],
+			[
+				"strlo",
+				"strtolower"
+			],
+			[
+				"regis",
+				"registrosActuales"
+			],
+			[
+				"regi",
+				"registrosActuales"
+			],
+			[
+				"bord",
+				"border"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"cl",
+				"clear"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"list",
+				"list-style"
+			],
+			[
+				"f",
+				"formLogin"
+			],
+			[
+				"con",
+				"cont"
+			],
+			[
+				"ti",
+				"tipoElemento"
+			],
+			[
+				"di",
+				"disparo"
+			],
+			[
+				"p",
+				"pa	package"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"s",
+				"static"
+			],
+			[
+				"im",
+				"important"
+			],
+			[
+				"in",
+				"inline-block"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"ejecuti",
+				"ejecutivo_id"
+			],
+			[
+				"Auth",
+				"Auth-user	Auth-user"
+			],
+			[
+				"Aut",
+				"Auth-user	Auth-user"
+			],
+			[
+				"Hash",
+				"Hash-check	Hash-check"
+			],
+			[
+				"Redire",
+				"Redirect-back	Redirect-back"
+			],
+			[
+				"Redirec",
+				"Redirect-back	Redirect-back"
+			],
+			[
+				"Valida",
+				"Validator-make	Validator-make"
+			],
+			[
+				"us",
+				"usuario"
+			],
+			[
+				"Redirect",
+				"Redirect-back	Redirect-back"
+			],
+			[
+				"pa",
+				"pass"
+			],
+			[
+				"array_key",
+				"array_key_exists"
+			],
+			[
+				"array_ke",
+				"array_key_exists"
+			],
+			[
+				"mari",
+				"margin"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"strto",
+				"strtoupper"
+			],
+			[
+				"val",
+				"value"
+			],
+			[
+				"va",
+				"value"
+			],
+			[
+				"cat_puesto",
+				"cat_puesto_id"
+			],
+			[
+				"fun",
+				"fun	function …"
+			],
+			[
+				"data",
+				"dataToggle"
+			],
+			[
+				"da",
+				"datepicker"
+			],
+			[
+				"imaget",
+				"imagettftext"
+			],
+			[
+				"add",
+				"addslashes"
+			],
+			[
+				"imgT",
+				"imgTemp"
+			],
+			[
+				"imgD",
+				"imgDirCompleto"
+			],
+			[
+				"img",
+				"imgNueva"
+			],
+			[
+				"funtion",
+				"function_exists"
+			],
+			[
+				"Personal",
+				"personal"
+			],
+			[
+				"actua",
+				"actualizar"
+			],
+			[
+				"new",
+				"newClaveArea"
+			],
+			[
+				"cla",
+				"clave_area"
+			],
+			[
+				"id",
+				"idSeleccionado"
+			],
+			[
+				"c",
+				"center"
+			],
+			[
+				"form",
+				"formSelect"
+			],
+			[
+				"co",
+				"console"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"a",
+				"ajax"
+			],
+			[
+				"ty",
+				"type"
+			],
+			[
+				"conte",
+				"contexto"
+			],
+			[
+				"mart",
+				"margin-top"
+			],
+			[
+				"re",
+				"registrada"
+			],
+			[
+				"link",
+				"links"
+			],
+			[
+				"li",
+				"link"
+			],
+			[
+				"u",
+				"undefined"
+			],
+			[
+				"pagina",
+				"pagination"
+			],
+			[
+				"pagin",
+				"paginator"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"type",
+				"typeof"
+			],
+			[
+				"for",
+				"form"
+			],
+			[
+				"op",
+				"options"
+			],
+			[
+				"fo",
+				"form"
+			],
+			[
+				"tota",
+				"totalRecords"
+			],
+			[
+				"seleccio",
+				"seleccionado"
+			],
+			[
+				"ba",
+				"background-color"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/views/admin/jugadores/create.blade.php",
+			"settings":
+			{
+				"buffer_size": 4631,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/Admin/JugadoresController.php",
+			"settings":
+			{
+				"buffer_size": 3176,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 54.0,
+		"selected_items":
+		[
+			[
+				"scaffol",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"scaffold",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"genera",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"generate",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Pack",
+				"Package Control: Install Package"
+			],
+			[
+				"instal",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Preferences: Browse Packages"
+			],
+			[
+				"pack",
+				"Preferences: Browse Packages"
+			],
+			[
+				"db:se",
+				"Laravel Artisan: DB:Seed"
+			],
+			[
+				"DB:",
+				"Laravel Artisan: DB:Seed"
+			],
+			[
+				"artisan:see",
+				"Laravel Artisan: DB:Seed"
+			],
+			[
+				"migrate",
+				"Laravel Artisan: Migrate"
+			],
+			[
+				"scaffo",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"generatemodel",
+				"Laravel Generate: Model"
+			],
+			[
+				"",
+				"Laravel Artisan: Asset: Publish"
+			],
+			[
+				"Laravel",
+				"Laravel Facade: App"
+			],
+			[
+				"gene",
+				"Package Control: Enable Package"
+			],
+			[
+				"ge",
+				"Package Control: Upgrade/Overwrite All Packages"
+			],
+			[
+				"gener",
+				"Preferences: Package Control Settings – User"
+			],
+			[
+				"Pac",
+				"Preferences: Browse Packages"
+			]
+		],
+		"width": 449.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)",
+			"import urllib2,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); os.makedirs( ipp ) if not os.path.exists(ipp) else None; urllib2.install_opener( urllib2.build_opener( urllib2.ProxyHandler()) ); by = urllib2.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); open( os.path.join( ipp, pf), 'wb' ).write(by) if dh == h else None; print('Error validating download (got %s instead of %s), please try manual install' % (dh, h) if dh != h else 'Please restart Sublime Text to finish installation')"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/var/www/html/clientes/Elieser/LigaDeFutbol",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/layouts",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/layouts/error"
+	],
+	"file_history":
+	[
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Jugadore.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Equipo.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/routes.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/EquiposController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/JugadoresController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Carrera.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/CarrerasController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Posicione.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Usuario.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/PosicionesController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Tipos_torneo.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Tipos_tarjeta.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/TiposTarjetasController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/TiposTorneosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/Tipos_torneosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/start/global.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/layouts/error/404.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Semestre.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/SemestresController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/semestres/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/semestres/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/semestres/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/semestres/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/admin/CarrerasController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/JugadoresController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/CarrerasController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/carreras/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/carreras/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/carreras/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/carreras/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/config/app.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/composer.json",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/config/auth.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/config/local/app.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/config/local/database.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/bootstrap/start.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/server.php",
+		"/home/cobrakik/NetBeansProjects/Tes13/javaTestFile.txt",
+		"/media/cobrakik/cobrakik/cobrakik/Videos/Tutoriales/Mejorando.la - Curso Backend/VÍDEOS/CLASE 5 NODE.JS/Historia y futuro de Javascript/Historia y futuro de Javascript (720p).español.srt",
+		"/home/cobrakik/Documentos/GitHub/SQSITMA/nb-configuration.xml",
+		"/home/cobrakik/NetBeansProjects/SQSITMA/nb-configuration.xml",
+		"/home/cobrakik/Descargas/android-studio/Install-Linux-tar.txt",
+		"/var/www/html/pruebas/mailSMTP/enviarEmail/gmail.php",
+		"/var/www/html/pruebas/mailSMTP/enviarEmail/contents.html",
+		"/var/www/html/pruebas/mailSMTP/cbk/gmail.php",
+		"/var/www/html/pruebas/mailSMTP/PHPMailer-master/PHPMailerAutoload.php",
+		"/var/www/html/pruebas/mailSMTP/PHPMailer-master/cbk/gmail.php",
+		"/var/www/html/pruebas/mailSMTP/PHPMailer-master/class.phpmailer.php",
+		"/var/www/html/pruebas/mailSMTP/PHPMailer-master/class.pop3.php",
+		"/var/www/html/pruebas/mailSMTP/PHPMailer-master/class.smtp.php",
+		"/var/www/html/pruebas/mailSMTP/PHPMailer-master/cbk/gmail.phps",
+		"/var/www/html/pruebas/mailSMTP/PHPMailer-master/examples/contents.html",
+		"/var/www/html/pruebas/mailSMTP/PHPMailer-master/examples/gmail.phps",
+		"/media/cobrakik/cobrakik/cobrakik/Documentos/ITMA/Otros/Proyectos externos/Punto de venta samuel/docs/prueba.p2f",
+		"/var/www/html/pruebas/eventosHTML5/evento.php",
+		"/var/www/html/pruebas/eventosHTML5/index.php",
+		"/home/cobrakik/Escritorio/alertaJavaScript.html",
+		"/var/www/html/itma/programacionWebAvanzada/JSON/p2/empleados.php",
+		"/var/www/html/itma/programacionWebAvanzada/JSON/p2/js/app.js",
+		"/var/www/html/itma/programacionWebAvanzada/JSON/p2/index.php",
+		"/var/www/html/itma/programacionWebAvanzada/JSON/p3/index.php",
+		"/var/www/html/itma/programacionWebAvanzada/JSON/p3/js/app.js",
+		"/var/www/html/itma/programacionWebAvanzada/JSON/p3/empleados.php",
+		"/var/www/html/itma/programacionWebAvanzada/JSON/p1/empleado.json",
+		"/home/cobrakik/NetBeansProjects/SQSITMA/SQSITMA/SQSITMA-ear/target/application.xml",
+		"/media/cobrakik/cobrakik/cobrakik/Documentos/Certificacion Oracle Java7/Archivos-Profesor/D67234GC10_labs/labs/les10/Shirt.java",
+		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/index.php",
+		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/partials/footer.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/puntaje.txt",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/puntaje.txt",
+		"/var/www/html/itma/programacionWeb/pdf/index.html",
+		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/js/jspdf.amd.min.js",
+		"/var/www/html/clientes/bap/dev.bapconsultores.com/app/views/admin/config/home.blade.php",
+		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/acercaDe.php",
+		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/partials/header.php",
+		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/logos.php",
+		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/index.html",
+		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/css/bootstrap.min.css",
+		"/media/cobrakik/DELFOS/AtaqueFuerzaBruta.java",
+		"/home/cobrakik/NetBeansProjects/Practice08/src/profesor/ArreglosMultidimencionales.java",
+		"/home/cobrakik/NetBeansProjects/Practice08/src/profesor/Iteraciones2.java",
+		"/home/cobrakik/NetBeansProjects/Practice08/src/profesor/Iteraciones.java",
+		"/home/cobrakik/NetBeansProjects/Practice08/src/profesor/Etiquetas.java",
+		"/home/cobrakik/NetBeansProjects/Practice08/src/VacationScaleTest.java",
+		"/home/cobrakik/NetBeansProjects/Practice09/src/practice09/Counter.java",
+		"/var/www/html/itma/programacionWeb/p9/login.php",
+		"/var/www/html/itma/programacionWeb/p9/css/login.css",
+		"/var/www/html/itma/programacionWeb/p9/registro.php",
+		"/home/cobrakik/NetBeansProjects/Practice09/src/practice09/Main.java",
+		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/PuntosDePractica.txt",
+		"/var/www/html/itma/programacionWeb/p9/js/password.js",
+		"/var/www/html/itma/programacionWeb/p9/password.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p1/procesarVoto.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p1/index.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p1/funciones.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p1/obtenerVotos.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/index.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/app.js",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/procesarVoto.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/index.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/app.js",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/procesarVoto.php",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/style.css",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/style.css",
+		"/media/cobrakik/cobrakik/cobrakik/Documentos/Certificacion Oracle Java7/Archivos-Profesor/D67234GC10_labs/labs/les09/CounterTest.java",
+		"/home/cobrakik/NetBeansProjects/ArreglosMultidimencionales.java",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/app.js",
+		"/var/www/html/itma/programacionWebAvanzada/Ajax/signo.php"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"edit",
+			"'jugadores.",
+			"->id",
+			"'equipos.",
+			"->id",
+			"'equipos.",
+			"->id",
+			"'equipos.",
+			"->id",
+			"'equipos.",
+			"Fecha_nacimiento",
+			"App",
+			"->id",
+			"'tipos_tarjetas",
+			"->id",
+			"'tipos_tarjetas",
+			"->id",
+			"'tipos_tarjetas",
+			"->id",
+			"'tipos_tarjetas",
+			"'tipos",
+			"->id",
+			"'tipos_torneos",
+			"->id",
+			"'tipos_torneos",
+			"tipos_torneos",
+			"tipos_torneo",
+			"->id",
+			"'tipos_torneos",
+			"id",
+			"'tipos_torneos",
+			"update",
+			"->id",
+			"'semestres",
+			"->id",
+			"'semestres",
+			"->id",
+			"'semestres",
+			"->id",
+			"'semestres",
+			"nombre",
+			"update",
+			"'posiciones",
+			"admin.",
+			"->id",
+			"'posiciones",
+			"id",
+			"'posiciones",
+			"->id",
+			"id",
+			"'posiciones",
+			"make('posiciones",
+			"posiciones",
+			"Response",
+			"'jugadores",
+			"jugadores",
+			"'jugadores",
+			"make('jugadores",
+			"jugadores",
+			"id",
+			"find",
+			"show",
+			"id",
+			"->id",
+			"id",
+			"find",
+			"id",
+			"carreras.",
+			"carreras",
+			"class",
+			"new",
+			"template",
+			"Render",
+			"editor",
+			"modalFactor",
+			"example-set",
+			"\nCopyright © 2014 Taller de Arquitectura GEDSA Todos los derechos reservados.",
+			"Catch Kathmandu by",
+			"auto",
+			"catchkathmandu_after_site_info",
+			"info",
+			"footer",
+			"info",
+			"catchkathmandu_after_site_info",
+			"power",
+			"info",
+			"catchkathmandu_after_site_info",
+			"powe",
+			"catchkathmandu_after_site_info",
+			"auto",
+			"pow",
+			"info",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"po",
+			"info",
+			"catchkathmandu_after_site_info",
+			"info",
+			"site_info",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"po",
+			"catchkathmandu_after_site_info",
+			"po",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"catchkathmandu_after_site_info",
+			"pow",
+			"power",
+			"powe",
+			"aut",
+			"catchkathmandu_after_site_info",
+			"contentinfo",
+			"powered",
+			"auth",
+			"console.log"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"Oficina"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/views/admin/jugadores/create.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4631,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4391,
+								4391
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/Admin/JugadoresController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 3176,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2250,
+								2250
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1802.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 112.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "liga_futbol.sublime-project",
+	"replace":
+	{
+		"height": 46.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 216.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
