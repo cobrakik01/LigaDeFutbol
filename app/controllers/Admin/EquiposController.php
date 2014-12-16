@@ -1,4 +1,5 @@
 <?php
+
 namespace Admin;
 
 use BaseController;
@@ -64,7 +65,7 @@ class EquiposController extends BaseController {
 		return Redirect::route('admin.equipos.create')
 			->withInput()
 			->withErrors($validation)
-			->with('message', 'There were validation errors.');
+			->with('message', 'El equipo ya existe.');
 	}
 
 	/**

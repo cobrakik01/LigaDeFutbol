@@ -11,4 +11,9 @@ class Equipo extends Eloquent {
 	public static $rules = array(
 		'nombre' => 'required|unique:equipos'
 	);
+
+	public function jugadores()
+	{
+		return $this->hasMany('Jugadore', 'equipo');
+	}
 }

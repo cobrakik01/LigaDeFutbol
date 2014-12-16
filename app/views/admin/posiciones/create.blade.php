@@ -4,7 +4,7 @@
 
 <div class="row">
     <div class="col-md-10 col-md-offset-2">
-        <h1>Create Posicione</h1>
+        <h1>Crear Posicion</h1>
 
         @if ($errors->any())
         	<div class="alert alert-danger">
@@ -19,9 +19,9 @@
 {{ Form::open(array('route' => 'admin.posiciones.store', 'class' => 'form-horizontal')) }}
 
         <div class="form-group">
-            {{ Form::label('nombre_posicion', 'Nombre_posicion:', array('class'=>'col-md-2 control-label')) }}
+            {{ Form::label('nombre_posicion', 'Posicion:', array('class'=>'col-md-2 control-label')) }}
             <div class="col-sm-10">
-              {{ Form::text('nombre_posicion', Input::old('nombre_posicion'), array('class'=>'form-control', 'placeholder'=>'Nombre_posicion')) }}
+              {{ Form::text('nombre_posicion', Input::old('nombre_posicion'), array('class'=>'form-control', 'placeholder'=>'Posicion')) }}
             </div>
         </div>
 
@@ -29,7 +29,7 @@
 <div class="form-group">
     <label class="col-sm-2 control-label">&nbsp;</label>
     <div class="col-sm-10">
-      {{ Form::submit('Create', array('class' => 'btn btn-lg btn-primary')) }}
+      {{ Form::submit('Crear', array('class' => 'btn btn-lg btn-primary')) }}
     </div>
 </div>
 

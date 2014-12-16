@@ -1,4 +1,5 @@
 <?php
+
 namespace Admin;
 
 use BaseController;

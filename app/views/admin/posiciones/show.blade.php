@@ -2,14 +2,14 @@
 
 @section('main')
 
-<h1>Show Posicione</h1>
+<h1>Mostrar posicion</h1>
 
-<p>{{ link_to_route('admin.posiciones.index', 'Return to All posiciones', null, array('class'=>'btn btn-lg btn-primary')) }}</p>
+<p>{{ link_to_route('admin.posiciones.index', 'Regresar a todas las posiciones', null, array('class'=>'btn btn-lg btn-primary')) }}</p>
 
-<table class="table table-striped">
+<table class="table table-striped table-hover">
 	<thead>
 		<tr>
-			<th>Nombre_posicion</th>
+			<th>Posicion</th>
 		</tr>
 	</thead>
 
@@ -18,9 +18,9 @@
 			<td>{{{ $posicione->nombre_posicion }}}</td>
                     <td>
                         {{ Form::open(array('style' => 'display: inline-block;', 'method' => 'DELETE', 'route' => array('admin.posiciones.destroy', $posicione->nombre_posicion))) }}
-                            {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
+                            {{ Form::submit('Eliminar', array('class' => 'btn btn-danger')) }}
                         {{ Form::close() }}
-                        {{ link_to_route('admin.posiciones.edit', 'Edit', array($posicione->nombre_posicion), array('class' => 'btn btn-info')) }}
+                        {{ link_to_route('admin.posiciones.edit', 'Editar', array($posicione->nombre_posicion), array('class' => 'btn btn-info')) }}
                     </td>
 		</tr>
 	</tbody>

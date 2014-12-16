@@ -4,7 +4,7 @@
 
 <div class="row">
     <div class="col-md-10 col-md-offset-2">
-        <h1>Edit Semestre</h1>
+        <h1>Editar semestre</h1>
 
         @if ($errors->any())
         	<div class="alert alert-danger">
@@ -29,8 +29,8 @@
 <div class="form-group">
     <label class="col-sm-2 control-label">&nbsp;</label>
     <div class="col-sm-10">
-      {{ Form::submit('Update', array('class' => 'btn btn-lg btn-primary')) }}
-      {{ link_to_route('admin.semestres.show', 'Cancel', $semestre->semestre, array('class' => 'btn btn-lg btn-default')) }}
+      {{ Form::submit('Actualizar', array('class' => 'btn btn-lg btn-primary')) }}
+      {{ link_to_route('admin.semestres.show', 'Cancelar', $semestre->semestre, array('class' => 'btn btn-lg btn-default')) }}
     </div>
 </div>
 

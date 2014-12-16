@@ -1,5 +1,13 @@
 <?php
 
+namespace Admin;
+
+use BaseController;
+use View;
+use Input;
+use Validator;
+use Redirect;
+
 class HomeController extends BaseController {
 
 	/*
@@ -15,9 +23,9 @@ class HomeController extends BaseController {
 	|
 	*/
 
-	public function showWelcome()
+	public function getIndex()
 	{
-		return View::make('hello');
+		return Redirect::route('admin.encuentros.index');
 	}
 
 }

@@ -7,6 +7,8 @@ use Illuminate\Auth\Reminders\RemindableInterface;
 
 class Usuario extends Eloquent implements UserInterface, RemindableInterface {
 
+	protected $primaryKey = 'nombre';
+
 	use UserTrait, RemindableTrait;
 
 	/**
@@ -16,11 +18,22 @@ class Usuario extends Eloquent implements UserInterface, RemindableInterface {
 	 */
 	protected $table = 'usuarios';
 
+	protected $fillable = [
+        'nombre',
+        'password'
+    ];
+
+
+	public static $rules = [
+		'nombre' => 'required|unique:usuarios,nombre',
+		'password' => 'required'
+	];
+
 	/**
 	 * The attributes excluded from the model's JSON form.
 	 *
 	 * @var array
 	 */
-	protected $hidden = array('password', 'remember_token');
+	protected $hidden = ['password', 'remember_token'];
 
 }

@@ -4,7 +4,7 @@
 
 <div class="row">
     <div class="col-md-10 col-md-offset-2">
-        <h1>Create Carrera</h1>
+        <h1>Crear carrera</h1>
 
         @if ($errors->any())
         	<div class="alert alert-danger">
@@ -19,9 +19,9 @@
 {{ Form::open(array('route' => 'admin.carreras.store', 'class' => 'form-horizontal')) }}
 
         <div class="form-group">
-            {{ Form::label('nombre_carrera', 'Nombre_carrera:', array('class'=>'col-md-2 control-label')) }}
+            {{ Form::label('nombre_carrera', 'Nombre de carrera:', array('class'=>'col-md-2 control-label')) }}
             <div class="col-sm-10">
-              {{ Form::text('nombre_carrera', Input::old('nombre_carrera'), array('class'=>'form-control', 'placeholder'=>'Nombre_carrera')) }}
+              {{ Form::text('nombre_carrera', Input::old('nombre_carrera'), array('class'=>'form-control', 'placeholder'=>'Nombre de carrera')) }}
             </div>
         </div>
 
@@ -29,7 +29,7 @@
 <div class="form-group">
     <label class="col-sm-2 control-label">&nbsp;</label>
     <div class="col-sm-10">
-      {{ Form::submit('Create', array('class' => 'btn btn-lg btn-primary')) }}
+      {{ Form::submit('Crear', array('class' => 'btn btn-lg btn-primary')) }}
     </div>
 </div>
 

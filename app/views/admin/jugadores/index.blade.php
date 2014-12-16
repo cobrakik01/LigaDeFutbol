@@ -2,23 +2,23 @@
 
 @section('main')
 
-<h1>All Jugadores</h1>
+<h1>Todos los Jugadores</h1>
 
-<p>{{ link_to_route('admin.jugadores.create', 'Add New Jugadore', null, array('class' => 'btn btn-lg btn-success')) }}</p>
+<p>{{ link_to_route('admin.jugadores.create', 'Agregar nuevo jugador', null, array('class' => 'btn btn-lg btn-success')) }}</p>
 
 @if ($jugadores->count())
-	<table class="table table-striped">
+	<table class="table table-striped table-hover">
 		<thead>
 			<tr>
-				<th>Nombre_posicion</th>
+				<th>Posicion</th>
 				<th>Equipo</th>
 				<th>Carrera</th>
 				<th>Semestre</th>
 				<th>Fotografia</th>
 				<th>Nombre</th>
-				<th>App</th>
-				<th>Apm</th>
-				<th>Fecha_nacimiento</th>
+				<th>Apellido paterno</th>
+				<th>apellido materno</th>
+				<th>Fecha de nacimiento</th>
 				<th>Dorsal</th>
 				<th>&nbsp;</th>
 			</tr>
@@ -48,7 +48,9 @@
 		</tbody>
 	</table>
 @else
-	There are no jugadores
+	<div class="alert alert-info">
+		<strong>Info.</strong> No se encontraron jugadores.
+	</div>
 @endif
 
 @stop

@@ -19,6 +19,11 @@ class DatabaseSeeder extends Seeder {
 		$this->call('Tipos_tarjetasTableSeeder');
 		$this->call('JugadoresTableSeeder');
 		$this->call('EquiposTableSeeder');
+		$this->call('TorneosTableSeeder');
+		$this->call('EncuentrosTableSeeder');
+		$this->call('UsuariosTableSeeder');
+		$this->call('Tabla_resultadosTableSeeder');
+		$this->call('Tarjetas_jugadoresTableSeeder');
 	}
 
 }

@@ -14,4 +14,10 @@ class Jugadore extends Eloquent {
 		'fecha_nacimiento' => 'required',
 		'dorsal' => 'required'
 	);
+
+
+	public function eq()
+	{
+		return $this->belongsTo('Equipo', 'equipo', 'nombre');
+	}
 }

@@ -2,23 +2,23 @@
 
 @section('main')
 
-<h1>Show Jugadore</h1>
+<h1>Mostrar jugador</h1>
 
-<p>{{ link_to_route('admin.jugadores.index', 'Return to All jugadores', null, array('class'=>'btn btn-lg btn-primary')) }}</p>
+<p>{{ link_to_route('admin.jugadores.index', 'Regresar a todos los jugadores', null, array('class'=>'btn btn-lg btn-primary')) }}</p>
 
 <table class="table table-striped">
 	<thead>
 		<tr>
-			<th>Nombre_posicion</th>
-				<th>Equipo</th>
-				<th>Carrera</th>
-				<th>Semestre</th>
-				<th>Fotografia</th>
-				<th>Nombre</th>
-				<th>App</th>
-				<th>Apm</th>
-				<th>Fecha_nacimiento</th>
-				<th>Dorsal</th>
+			<th>Posicion</th>
+			<th>Equipo</th>
+			<th>Carrera</th>
+			<th>Semestre</th>
+			<th>Fotografia</th>
+			<th>Nombre</th>
+			<th>Apellido paterno</th>
+			<th>Apellido materno</th>
+			<th>Fecha de nacimiento</th>
+			<th>Dorsal</th>
 		</tr>
 	</thead>
 

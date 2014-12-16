@@ -2,15 +2,15 @@
 
 @section('main')
 
-<h1>All Posiciones</h1>
+<h1>Todas las posiciones</h1>
 
-<p>{{ link_to_route('admin.posiciones.create', 'Add New Posicione', null, array('class' => 'btn btn-lg btn-success')) }}</p>
+<p>{{ link_to_route('admin.posiciones.create', 'Agregar nueva posicion', null, array('class' => 'btn btn-lg btn-success')) }}</p>
 
 @if ($posiciones->count())
-	<table class="table table-striped">
+	<table class="table table-striped table-hover">
 		<thead>
 			<tr>
-				<th>Nombre_posicion</th>
+				<th>Posicion</th>
 				<th>&nbsp;</th>
 			</tr>
 		</thead>
@@ -21,9 +21,9 @@
 					<td>{{{ $posicione->nombre_posicion }}}</td>
                     <td>
                         {{ Form::open(array('style' => 'display: inline-block;', 'method' => 'DELETE', 'route' => array('admin.posiciones.destroy', $posicione->nombre_posicion))) }}
-                            {{ Form::submit('Delete', array('class' => 'btn btn-danger')) }}
+                            {{ Form::submit('Eliminar', array('class' => 'btn btn-danger')) }}
                         {{ Form::close() }}
-                        {{ link_to_route('admin.posiciones.edit', 'Edit', array($posicione->nombre_posicion), array('class' => 'btn btn-info')) }}
+                        {{ link_to_route('admin.posiciones.edit', 'Editar', array($posicione->nombre_posicion), array('class' => 'btn btn-info')) }}
                     </td>
 				</tr>
 			@endforeach

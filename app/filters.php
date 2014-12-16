@@ -13,7 +13,13 @@
 
 App::before(function($request)
 {
-	//
+	if(Usuario::count() <= 0)
+	{
+		$us = new Usuario;
+		$us->nombre = "admin";
+		$us->password = Hash::make('masterkey');
+		$us->save();
+	}
 });
 
 
@@ -43,7 +49,7 @@ Route::filter('auth', function()
 		}
 		else
 		{
-			return Redirect::guest('login');
+			return Redirect::guest('admin/login');
 		}
 	}
 });

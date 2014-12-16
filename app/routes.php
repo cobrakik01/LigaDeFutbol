@@ -13,19 +13,47 @@
 
 Route::get('/', function()
 {
-	return View::make('hello');
+	// return View::make('hello');
+	return "ok";
 });
 
-Route::resource('admin/posiciones', 'Admin\PosicionesController');
 
-Route::resource('admin/carreras', 'Admin\CarrerasController');
+Route::get('admin/login', ['as' => 'admin.login', 'uses' => 'Admin\SessionController@getLogin']);
 
-Route::resource('admin/semestres', 'Admin\SemestresController');
+Route::post('admin/login', 'Admin\SessionController@postLogin');
 
-Route::resource('admin/tipos_torneos', 'Admin\TiposTorneosController');
+Route::get('admin/logout', ['as' => 'admin.logout', 'uses' => 'Admin\SessionController@getLogout']);
 
-Route::resource('admin/tipos_tarjetas', 'Admin\TiposTarjetasController');
+Route::get('admin', ['as' => 'admin', 'uses' => 'Admin\HomeController@getIndex'])->before('auth');
 
-Route::resource('admin/jugadores', 'Admin\JugadoresController');
+Route::group(['before' => 'auth'], function(){
 
-Route::resource('admin/equipos', 'Admin\EquiposController');
+	Route::resource('admin/posiciones', 'Admin\PosicionesController');
+
+	Route::resource('admin/carreras', 'Admin\CarrerasController');
+
+	Route::resource('admin/semestres', 'Admin\SemestresController');
+
+	Route::resource('admin/tipos_torneos', 'Admin\TiposTorneosController');
+
+	Route::resource('admin/tipos_tarjetas', 'Admin\TiposTarjetasController');
+
+	Route::resource('admin/jugadores', 'Admin\JugadoresController');
+
+	Route::resource('admin/equipos', 'Admin\EquiposController');
+
+	Route::resource('admin/torneos', 'Admin\TorneosController');
+
+	Route::resource('admin/encuentros', 'Admin\EncuentrosController');
+
+	Route::resource('admin/usuarios', 'Admin\UsuariosController');
+
+	Route::model('encuentro', 'Encuentro');
+	Route::model('jugador', 'Jugadore');
+	Route::get('admin/encuentros/{encuentro}/tabla-resultados', ['as' => 'admin.tr.index', 'uses' => 'Admin\TablaResultadosController@getIndex']);
+	Route::post('admin/encuentros/{encuentro}/{jugador}/agregar-gol', ['as' => 'admin.tr.agregar.gol', 'uses' => 'Admin\TablaResultadosController@postAgregarGol']);
+	Route::post('admin/encuentros/{encuentro}/{jugador}/quitar-gol', ['as' => 'admin.tr.quitar.gol', 'uses' => 'Admin\TablaResultadosController@postQuitarGol']);
+
+});
+
+Route::resource('tarjetas_jugadores', 'Tarjetas_jugadoresController');

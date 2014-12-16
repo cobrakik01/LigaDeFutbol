@@ -4,7 +4,7 @@
 
 <div class="row">
     <div class="col-md-10 col-md-offset-2">
-        <h1>Edit Tipos_tarjeta</h1>
+        <h1>Editar tipo de tarjeta</h1>
 
         @if ($errors->any())
         	<div class="alert alert-danger">
@@ -19,9 +19,9 @@
 {{ Form::model($tipos_tarjeta, array('class' => 'form-horizontal', 'method' => 'PATCH', 'route' => array('admin.tipos_tarjetas.update', $tipos_tarjeta->tipo_tarjeta))) }}
 
         <div class="form-group">
-            {{ Form::label('tipo_tarjeta', 'Tipo_tarjeta:', array('class'=>'col-md-2 control-label')) }}
+            {{ Form::label('tipo_tarjeta', 'Tipo de tarjeta:', array('class'=>'col-md-2 control-label')) }}
             <div class="col-sm-10">
-              {{ Form::text('tipo_tarjeta', Input::old('tipo_tarjeta'), array('class'=>'form-control', 'placeholder'=>'Tipo_tarjeta')) }}
+              {{ Form::text('tipo_tarjeta', Input::old('tipo_tarjeta'), array('class'=>'form-control', 'placeholder'=>'Tipo de tarjeta')) }}
             </div>
         </div>
 
@@ -29,8 +29,8 @@
 <div class="form-group">
     <label class="col-sm-2 control-label">&nbsp;</label>
     <div class="col-sm-10">
-      {{ Form::submit('Update', array('class' => 'btn btn-lg btn-primary')) }}
-      {{ link_to_route('admin.tipos_tarjetas.show', 'Cancel', $tipos_tarjeta->tipo_tarjeta, array('class' => 'btn btn-lg btn-default')) }}
+      {{ Form::submit('Actualizar', array('class' => 'btn btn-lg btn-primary')) }}
+      {{ link_to_route('admin.tipos_tarjetas.show', 'Cancelar', $tipos_tarjeta->tipo_tarjeta, array('class' => 'btn btn-lg btn-default')) }}
     </div>
 </div>
 

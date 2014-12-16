@@ -4,6 +4,22 @@
 		"selected_items":
 		[
 			[
+				"jugado",
+				"jugador"
+			],
+			[
+				"ju",
+				"jugador"
+			],
+			[
+				"jugador",
+				"jugador_id"
+			],
+			[
+				"equipo",
+				"equipo1"
+			],
+			[
 				"noti",
 				"notifyMe"
 			],
@@ -360,18 +376,26 @@
 	"buffers":
 	[
 		{
-			"file": "app/views/admin/jugadores/create.blade.php",
+			"file": "app/routes.php",
 			"settings":
 			{
-				"buffer_size": 4631,
+				"buffer_size": 2188,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "app/controllers/Admin/JugadoresController.php",
+			"file": "app/controllers/Admin/TablaResultadosController.php",
 			"settings":
 			{
-				"buffer_size": 3176,
+				"buffer_size": 1145,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/views/admin/tabla_resultados/layout/tabla_resultados.blade.php",
+			"settings":
+			{
+				"buffer_size": 1468,
 				"line_ending": "Unix"
 			}
 		}
@@ -383,11 +407,19 @@
 		"selected_items":
 		[
 			[
-				"scaffol",
+				"scaffold",
 				"Laravel Generate: Scaffold"
 			],
 			[
-				"scaffold",
+				"scaf",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"scafo",
+				"Laravel Generate: Scaffold"
+			],
+			[
+				"scaffol",
 				"Laravel Generate: Scaffold"
 			],
 			[
@@ -508,62 +540,99 @@
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/layouts",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/layouts/error"
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/encuentros",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tabla_resultados",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tabla_resultados/layout"
 	],
 	"file_history":
 	[
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/index.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/show.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Tabla_resultado.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Tipos_tarjeta.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/encuentros/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tabla_resultados/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Encuentro.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Tarjetas_jugadore.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tabla_resultados/layout/tabla_resultados.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tabla_resultados/layout/tabla_resultados.blade.pgp",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Jugadore.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Equipo.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/routes.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/EquiposController.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/create.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/edit.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/show.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/index.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/JugadoresController.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/create.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Carrera.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/CarrerasController.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Posicione.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Usuario.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/PosicionesController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Torneo.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Tipos_torneo.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Tipos_tarjeta.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/HomeController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/layouts/scaffold.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/CarrerasController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/TablaResultadosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tabla_resultados/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/home.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/login.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/SessionController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/filters.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/TiposTarjetasController.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/create.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/show.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/index.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/edit.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/TiposTorneosController.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/show.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/Tipos_torneosController.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/start/global.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/layouts/error/404.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/index.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/edit.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/create.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Semestre.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Usuario.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/EquiposController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/routes.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tabla_resultados/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tabla_resultados/edit.blade.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/SemestresController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/UsuariosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/usuarios/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/usuarios/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/usuarios/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/usuarios/index.blade.php",
+		"/var/www/html/clientes/bap/dev.bapconsultores.com/app/models/Cita.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/TorneosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/UsuariosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Semestre.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/EncuentrosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/encuentros/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/encuentros/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/encuentros/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/EncuentrosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/torneos/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/torneos/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/torneos/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/torneos/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/TiposTorneosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/TorneosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_tarjetas/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/index.blade.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/semestres/show.blade.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/semestres/edit.blade.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/semestres/create.blade.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/semestres/index.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/show.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/create.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/edit.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/index.blade.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/admin/CarrerasController.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/JugadoresController.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/CarrerasController.php",
-		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/carreras/index.blade.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/carreras/show.blade.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/carreras/edit.blade.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/carreras/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/carreras/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/posiciones/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/JugadoresController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/jugadores/index.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/public/css/bootstrap.min.css",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/edit.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/equipos/show.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Carrera.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/models/Posicione.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/PosicionesController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/Admin/Tipos_torneosController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/start/global.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/layouts/error/404.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/views/admin/tipos_torneos/create.blade.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/admin/CarrerasController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/JugadoresController.php",
+		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/controllers/CarrerasController.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/config/app.php",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/composer.json",
 		"/var/www/html/clientes/Elieser/LigaDeFutbol/app/config/auth.php",
@@ -604,44 +673,7 @@
 		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/partials/footer.php",
 		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/puntaje.txt",
 		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/puntaje.txt",
-		"/var/www/html/itma/programacionWeb/pdf/index.html",
-		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/js/jspdf.amd.min.js",
-		"/var/www/html/clientes/bap/dev.bapconsultores.com/app/views/admin/config/home.blade.php",
-		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/acercaDe.php",
-		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/partials/header.php",
-		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/logos.php",
-		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/index.html",
-		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/css/bootstrap.min.css",
-		"/media/cobrakik/DELFOS/AtaqueFuerzaBruta.java",
-		"/home/cobrakik/NetBeansProjects/Practice08/src/profesor/ArreglosMultidimencionales.java",
-		"/home/cobrakik/NetBeansProjects/Practice08/src/profesor/Iteraciones2.java",
-		"/home/cobrakik/NetBeansProjects/Practice08/src/profesor/Iteraciones.java",
-		"/home/cobrakik/NetBeansProjects/Practice08/src/profesor/Etiquetas.java",
-		"/home/cobrakik/NetBeansProjects/Practice08/src/VacationScaleTest.java",
-		"/home/cobrakik/NetBeansProjects/Practice09/src/practice09/Counter.java",
-		"/var/www/html/itma/programacionWeb/p9/login.php",
-		"/var/www/html/itma/programacionWeb/p9/css/login.css",
-		"/var/www/html/itma/programacionWeb/p9/registro.php",
-		"/home/cobrakik/NetBeansProjects/Practice09/src/practice09/Main.java",
-		"/var/www/html/itma/programacionWeb/Practica-Viernes28Nov/PuntosDePractica.txt",
-		"/var/www/html/itma/programacionWeb/p9/js/password.js",
-		"/var/www/html/itma/programacionWeb/p9/password.php",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p1/procesarVoto.php",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p1/index.php",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p1/funciones.php",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p1/obtenerVotos.php",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/index.php",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/app.js",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/procesarVoto.php",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/index.php",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/app.js",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/procesarVoto.php",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p3/style.css",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/p2/style.css",
-		"/media/cobrakik/cobrakik/cobrakik/Documentos/Certificacion Oracle Java7/Archivos-Profesor/D67234GC10_labs/labs/les09/CounterTest.java",
-		"/home/cobrakik/NetBeansProjects/ArreglosMultidimencionales.java",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/app.js",
-		"/var/www/html/itma/programacionWebAvanzada/Ajax/signo.php"
+		"/var/www/html/itma/programacionWeb/pdf/index.html"
 	],
 	"find":
 	{
@@ -659,6 +691,18 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"encuentro",
+			"eq1",
+			"auth",
+			"'tabla_resultados.",
+			"id",
+			"'usuarios.",
+			"'encuentros.",
+			"'torneos.",
+			"update",
+			"pills",
+			"stack",
+			"nav",
 			"edit",
 			"'jugadores.",
 			"->id",
@@ -774,19 +818,7 @@
 			"catchkathmandu_after_site_info",
 			"pow",
 			"catchkathmandu_after_site_info",
-			"pow",
-			"catchkathmandu_after_site_info",
-			"pow",
-			"catchkathmandu_after_site_info",
-			"pow",
-			"power",
-			"powe",
-			"aut",
-			"catchkathmandu_after_site_info",
-			"contentinfo",
-			"powered",
-			"auth",
-			"console.log"
+			"pow"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -805,54 +837,81 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "app/views/admin/jugadores/create.blade.php",
+					"file": "app/routes.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4631,
+						"buffer_size": 2188,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								4391,
-								4391
+								1791,
+								1791
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
 						"translation.x": 0.0,
-						"translation.y": 240.0,
+						"translation.y": 528.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/Admin/TablaResultadosController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1145,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								877,
+								877
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"word_wrap": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 348.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 1,
-					"file": "app/controllers/Admin/JugadoresController.php",
+					"buffer": 2,
+					"file": "app/views/admin/tabla_resultados/layout/tabla_resultados.blade.php",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 3176,
+						"buffer_size": 1468,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2250,
-								2250
+								1181,
+								1181
 							]
 						],
 						"settings":
@@ -860,8 +919,8 @@
 							"syntax": "Packages/PHP/PHP.tmLanguage",
 							"translate_tabs_to_spaces": false
 						},
-						"translation.x": 0.0,
-						"translation.y": 1802.0,
+						"translation.x": 8.0,
+						"translation.y": 216.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 1,
